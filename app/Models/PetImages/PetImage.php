@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Models;
+namespace App\Models\PetImages;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Address extends Model
+class PetImage extends Model
 {
     use HasFactory;
 
@@ -14,5 +14,6 @@ class Address extends Model
      *
      * @var array<int, string>
      */
-    protected $fillable = ['district', 'street', 'city_id'];
+    protected $fillable = ['pet_id'];
+
 }
