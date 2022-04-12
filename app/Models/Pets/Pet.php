@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Models;
+namespace App\Models\Pets;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Address extends Model
+class Pet extends Model
 {
     use HasFactory;
 }
