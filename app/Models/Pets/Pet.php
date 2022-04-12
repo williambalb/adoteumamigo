@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Pet extends Model
 {
     use HasFactory;
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array<int, string>
+     */
+    protected $fillable = ['species', 'name', 'gender', 'main_picture', 'age', 'user_id'];
 }
